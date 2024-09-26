@@ -111,7 +111,7 @@ function fire() {
   var locNum1 = document.getElementById("ano").value;
   var locNum2 = document.getElementById("edic").value;
   var locNum3 = document.getElementById("pref").value;
-  window.location = "http://memoria.bn.br/pdf/" + locNum0 + "/per" + locNum0 + "_" + locNum1 + "_"+ locNum3 + locNum2 + ".pdf";
+  window.location = "https://hemeroteca-pdf.bn.gov.br/" + locNum0 + "/per" + locNum0 + "_" + locNum1 + "_"+ locNum3 + locNum2 + ".pdf";
 }
 
 document.getElementById("clickme").onclick = fire;
@@ -122,7 +122,7 @@ $('#form-peri input').change(function() {
   var locNum1 = document.getElementById("ano").value;
   var locNum2 = document.getElementById("edic").value;
   var locNum3 = document.getElementById("pref").value;
-  var resut = 'http://memoria.bn.br/pdf/' + locNum0 + '/per' + locNum0 + '_' + locNum1 + '_'+ locNum3 + locNum2 + '.pdf';
+  var resut = 'https://hemeroteca-pdf.bn.gov.br/' + locNum0 + '/per' + locNum0 + '_' + locNum1 + '_'+ locNum3 + locNum2 + '.pdf';
 $('#resut').text(resut)
 });
 </script>
